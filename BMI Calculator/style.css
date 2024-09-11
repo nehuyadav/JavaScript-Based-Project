@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#nav{
+    width: 100%;
+    height: 30px;
+    background-color:  pink;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.link{
+     height: 25px;
+     width: 200%;
+     font-weight: 10px;
+     padding: 0.5px;
+     border: 1px solid black;
+     border-radius: 3px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-size: 30px;
+}
+h1{
+    padding: 20px;
+}
+form{
+    gap: 40px;
+    line-height: 50px;
+}
+#but{
+   border-radius: 5px;
+   padding: 1px;
+   width: 100px;
+   height: 40px;
+   font-size: 20px;
+   margin: 15px 0px 15px 0px;
+   gap: 20px;
+}
